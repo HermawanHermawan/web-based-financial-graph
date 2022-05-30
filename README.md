@@ -1,0 +1,5 @@
+PROJECT DESCRIPTION
+
+In this project, a Web-based financial Graph is built. In this case, stock price data from Yahoo! Finance is used to create Candlestick Graph - a graph used by traders to make trading decisions based on regularly occurring patterns. The Candlestick, in this case, helps forecast the short-term direction of the price. 
+
+Using DataReader package, data is imported from a number of online sources from Yahoo! Finance. In this project, we will make use of the stock price of Apple, with the ticker name 'AAPL' for the period of 10 trading days, starting from May 16, 2022 up to May 28, 2022. The dataset is retrieved from Yahoo! Finance. The dataset contains the opening, closing, highest, and lowest stock price per each trading days as well as the amount/volume of stocks traded per day. After getting all the necessary information, the data will be plotted by making use of Bokeh to create the Candlestick Graph. 
